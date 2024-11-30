@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div style="display: flex">
+        <hr />
+        <h1 class="head">YAY! It's BOGO</h1>
+        <hr />
+      </div>
+      <!-- First Box -->
+      <div class="offer-box expandable">
+        <div class=" " style="display: flex; margin-top: 1px">
+          <div style="margin-right: 80px">
+            <input type="radio" name="offer" id="offer" />
+
+            <span style="font-weight: bold">1 Unit</span>
+            <span
+              class="discount"
+              style="background-color: rgba(255, 0, 0, 0.3)"
+              >30% Off</span
+            >
+            <p class="Standard">Standard Price</p>
+          </div>
+
+          <div style="margin-left: 20px">
+            <div class="price">$24.00 USD</div>
+            <div class="original-price"><del>$24.00 USD</del></div>
+          </div>
+        </div>
+        <div class="box-details">
+          <table class="row" style="margin-top: 20px">
+            <tr class="heading">
+              <th style="padding-right: 70px;">Size:</th>
+              <th style="padding-right: 70px;">Color:</th>
+            </tr>
+            <tr>
+              <td>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </td>
+              <td>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </td>
+              <td>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- second Box -->
+      <div class="offer-box expandable">
+        <div class=" " style="display: flex; margin-top: 8px">
+          <div style="margin-right: 80px">
+            <input type="radio" name="offer2" id="offer2" />
+
+            <span style="font-weight: bold">2 Unit</span>
+            <span
+              class="discount"
+              style="background-color: rgba(255, 0, 0, 0.3)"
+              >20% Off</span
+            >
+          </div>
+
+          <div style="margin-left: 20px">
+            <div class="price">$18.00 USD</div>
+            <div class="original-price"><del>$24.00 USD</del></div>
+          </div>
+        </div>
+        <div class="box-details">
+          <table class="row" style="margin-top: 20px">
+            <tr>
+              <tr class="heading">
+                <th style="padding-right: 70px;">Size:</th>
+                <th style="padding-right: 70px;">Color:</th>
+              </tr>
+            </tr>
+            <tr>
+              <td>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </td>
+              <td>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </td>
+              <td>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- Third Box -->
+      <div class="offer-box expandable">
+        <div class=" " style="display: flex; margin-top: 1px">
+          <div style="margin-right: 80px">
+            <input type="radio" name="offer3" id="offer3" />
+
+            <span style="font-weight: bold">3 Unit</span>
+            <span
+              class="discount"
+              style="background-color: rgba(255, 0, 0, 0.3)"
+              >30% Off</span
+            >
+            <p class="Standard">Standard Price</p>
+          </div>
+
+          <div style="margin-left: 20px">
+            <div class="price">$24.00 USD</div>
+            <div class="original-price"><del>$24.00 USD</del></div>
+          </div>
+        </div>
+        <div class="box-details">
+          <table class="row" style="margin-top: 20px">
+            <tr>
+              <tr class="heading">
+                <th style="padding-right: 70px;">Size:</th>
+                <th style="padding-right: 70px;">Color:</th>
+              </tr>
+            </tr>
+            <tr>
+              <td>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </td>
+              <td>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </td>
+              <td>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div style="display: flex; margin-left: 15px; margin-bottom: 20px">
+          <p class="free">Free Delivery</p>
+          <p class="total1" style="margin-left: 170px">
+            Total: <span id="total-price">$18.00 USD</span>
+          </p>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

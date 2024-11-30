@@ -201,3 +201,15 @@ hr {
   height: 25.31px;
   border-radius: 1.81px;
 }
+.most-popular {
+  background-color: #ff4d6d;
+  color: white;
+  font-size: 10px;
+ 
+  padding: 3px 7px;
+  position: absolute;
+  top: 0.1px;
+  right: 2px;
+  border-radius: 5px;
+  font-weight: bold;
+}
